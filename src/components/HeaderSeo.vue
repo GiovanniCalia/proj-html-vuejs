@@ -7,7 +7,7 @@
         <div class="d-flex align-items-center">
             <ul class='d-flex mt-3 mx-2' v-for='element in listHeader' :key='element.name'>
                 <li class='d-flex '><a href="">{{ element.name }}</a></li>
-                <li v-show='element.button === "APPLY" '><a class='ms-3 button-apply' href="">{{ element.button }}</a></li>
+                <li v-show='element.button === "APPLY" '><a class='ms-3 button-apply' :href="element.href">{{ element.button }}</a></li>
             </ul>
             <button class="ms-5">get in touch now</button>
         </div>
@@ -29,23 +29,29 @@ export default {
     return {
       listHeader: [
         {
-          name: 'Home'
+          name: 'Home',
+          href: '#!'
         },
         {
-          name: 'Who We Are'
+          name: 'Who We Are',
+          href: '#!'
         },
         {
-          name: 'What We Do'
+          name: 'What We Do',
+          href: '#!'
         },
         {
-          name: 'Where We Work'
+          name: 'Where We Work',
+          href: '#!'
         },
         {
           name: 'Careers',
-          button: 'APPLY'
+          button: 'APPLY',
+          href: '#!'
         },
         {
-          name: 'News'
+          name: 'News',
+          href: '#!'
         }
       ]
     }
