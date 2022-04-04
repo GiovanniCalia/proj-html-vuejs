@@ -64,6 +64,11 @@ main{
     background-color: white;
     width: 350px;
     padding: 1.5rem;
+
+    h3{
+      font-size: 1.5rem;
+    }
+
     }
   }
 }

@@ -6,8 +6,8 @@
         <img src="../../src/assets/images/logo_seo_w_1x.png" alt="logo seo">
         <div class="d-flex align-items-center">
             <ul class='d-flex mt-3' v-for='element in listHeader' :key='element.name'>
-                <li class='d-flex '><a href="">{{ element.name }}</a></li>
-                <li v-show='element.button === "APPLY" '><a class='ms-3 button-apply' :href="element.href">{{ element.button }}</a></li>
+                <li class='d-flex '><a :href="element.href">{{ element.name }}</a></li>
+                <li v-show='element.button === "APPLY"'><a class='ms-3 button-apply' :href="element.href">{{ element.button }}</a></li>
             </ul>
             <button class="ms-5">get in touch now</button>
         </div>
@@ -61,19 +61,19 @@ export default {
 
 <style scoped lang='scss'>
 header{
-    background-image: url(../../src/assets/images/1-hero-image.png);
-    background-size: cover;
+  background-image: url(../../src/assets/images/1-hero-image.png);
+  background-size: cover;
 
     nav{
-        font-size: 90%;
+      font-size: 90%;
 
         button{
-        text-transform: uppercase;
-        padding: 0.6rem 1.5rem;
-        color: white;
-        background-color: #ffa837;
-        border-radius: 100px;
-        border: none;
+          text-transform: uppercase;
+          padding: 0.6rem 1.5rem;
+          color: white;
+          background-color: #ffa837;
+          border-radius: 100px;
+         border: none;
         }
     }
 
@@ -85,15 +85,15 @@ header{
     }
 
     li {
-        list-style-type: none;
+      list-style-type: none;
 
         a{
-            color: #f8f8f8;
-            text-decoration: none;
+          color: #f8f8f8;
+          text-decoration: none;
 
-            &:hover{
-              color: #ffa837;
-            }
+          &:hover{
+            color: #ffa837;
+          }
         }
     }
 
