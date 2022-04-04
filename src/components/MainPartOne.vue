@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <img src="../../src/assets/images/agency-seo-desk-front-1200x570.jpg" class="img-fluid" alt="">
+      <img src="../../src/assets/images/agency-seo-desk-front-1200x570.jpg" class="img-fluid" alt="Seo Desk">
 
     </div>
   </main>
@@ -40,30 +40,31 @@ export default {
 
 <style scoped lang='scss'>
 
-.text-box{
+main{
+  background-color: #f8f8f8;
+
+  .text-box{
   margin: auto;
   width: 500px;
-}
-.fa-road, .fa-video, .fa-droplet{
+  }
+
+  .fa-road, .fa-video, .fa-droplet{
   color: #ffa837;
   font-size: 170%;
-}
+  }
 
-main{
-  background-color: #f3f3f3
-}
-
-p{
+  p{
   font-size: 90%;
   color: #818e9d;
-}
+  }
 
-.color_white{
+  .color_white{
 
-  .box{
+    .box{
     background-color: white;
     width: 350px;
     padding: 1.5rem;
+    }
   }
 }
 

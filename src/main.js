@@ -1,12 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faRoad, faVideo, faDroplet } from '@fortawesome/free-solid-svg-icons'
+import { faRoad, faVideo, faDroplet, faGear, faBuilding, faChartColumn } from '@fortawesome/free-solid-svg-icons'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faRoad)
 library.add(faVideo)
 library.add(faDroplet)
+library.add(faGoogle)
+library.add(faGear)
+library.add(faBuilding)
+library.add(faChartColumn)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

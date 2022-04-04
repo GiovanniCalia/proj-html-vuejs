@@ -114,7 +114,7 @@ header{
       }
 
       .color-blue{
-        background-color: #0369d7;
+        background-color: #607AFE;
       }
     }
 }
