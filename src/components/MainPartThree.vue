@@ -28,6 +28,10 @@ export default {
 
 <style scoped lang='scss'>
 
+main{
+    background-color: #f8f8f8;
+}
+
 .text-box{
     width: 500px;
     margin: auto;
