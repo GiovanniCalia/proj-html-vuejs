@@ -3,6 +3,7 @@
     <header-seo />
     <main-part-one />
     <main-part-two />
+    <main-part-three />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderSeo from './components/HeaderSeo.vue'
 import MainPartOne from './components/MainPartOne.vue'
 import MainPartTwo from './components/MainPartTwo.vue'
+import MainPartThree from './components/MainPartThree.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderSeo,
     MainPartOne,
-    MainPartTwo
+    MainPartTwo,
+    MainPartThree
   }
 }
 </script>

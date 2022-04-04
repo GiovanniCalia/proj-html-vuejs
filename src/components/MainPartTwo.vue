@@ -1,7 +1,7 @@
 <template>
 <main>
     <div class="cont_box">
-         <div class=" text-box text-center py-5">
+        <div class=" text-box text-center py-5">
           <h2 class="mb-3">See Our Notch Services</h2>
           <p>Set ut perspiciatis unde omnis iste natus erroe sit voluptatem accusantinum doloremque laudantium.</p>
         </div>
@@ -15,7 +15,7 @@
                <font-awesome-icon icon="fa-solid fa-angle-right" class="ms-1"/>
             </div>
 
-             <div class="box py-4">
+             <div class="box ms-5 me-4 py-4">
                <font-awesome-icon icon="fa-solid fa-gear" class="py-3"/>
                <h3 class="mb-3">Brand strategy</h3>
                <p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et, dapibus faucibus odio.</p>
@@ -23,7 +23,7 @@
                <font-awesome-icon icon="fa-solid fa-angle-right" class="ms-1"/>
             </div>
 
-             <div class="box py-4">
+             <div class="box ms-4 me-5 py-4">
                <font-awesome-icon icon="fa-solid fa-building" class="py-3"/>
                <h3 class="mb-3">Local SEO</h3>
                <p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et, dapibus faucibus odio.</p>
@@ -70,10 +70,8 @@ main{
     }
 
     .box{
-      width: 300px;
       color: white;
       background-color: #1a236c;
-      margin: 0 1rem;
       padding: 1.5rem;
       font-size: 90%;
 
