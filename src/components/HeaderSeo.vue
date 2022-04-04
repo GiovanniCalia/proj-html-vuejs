@@ -1,6 +1,6 @@
 
 <template>
-<header class="mb-5">
+<header class="pb-5">
   <div class="cont_box">
     <nav class='d-flex align-items-center justify-content-between py-3 px-5'>
         <img src="../../src/assets/images/logo_seo_w_1x.png" alt="logo seo">
