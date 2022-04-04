@@ -75,7 +75,7 @@ main{
       padding: 1.5rem;
       font-size: 90%;
 
-        .fa-google, .fa-gear, .fa-building, .fa-chart-column,{
+        .fa-google, .fa-gear, .fa-building, .fa-chart-column{
           color: #ffa837;
           font-size: 170%;
         }

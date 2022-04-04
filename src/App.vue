@@ -4,6 +4,7 @@
     <main-part-one />
     <main-part-two />
     <main-part-three />
+    <main-part-four />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderSeo from './components/HeaderSeo.vue'
 import MainPartOne from './components/MainPartOne.vue'
 import MainPartTwo from './components/MainPartTwo.vue'
 import MainPartThree from './components/MainPartThree.vue'
+import MainPartFour from './components/MainPartFour.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     HeaderSeo,
     MainPartOne,
     MainPartTwo,
-    MainPartThree
+    MainPartThree,
+    MainPartFour
   }
 }
 </script>
