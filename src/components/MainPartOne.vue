@@ -53,13 +53,18 @@ main{
   background-color: #f3f3f3
 }
 
+p{
+  font-size: 90%;
+  color: #818e9d;
+}
+
 .color_white{
 
   .box{
     background-color: white;
     width: 350px;
+    padding: 1.5rem;
   }
-
 }
 
 </style>
