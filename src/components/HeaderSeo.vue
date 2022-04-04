@@ -2,17 +2,17 @@
 <template>
 <header class="pb-5">
   <div class="cont_box">
-    <nav class='d-flex align-items-center justify-content-between py-3 px-5'>
+         <nav class='d-flex align-items-center justify-content-between py-3'>
         <img src="../../src/assets/images/logo_seo_w_1x.png" alt="logo seo">
         <div class="d-flex align-items-center">
-            <ul class='d-flex mt-3 mx-2' v-for='element in listHeader' :key='element.name'>
+            <ul class='d-flex mt-3' v-for='element in listHeader' :key='element.name'>
                 <li class='d-flex '><a href="">{{ element.name }}</a></li>
                 <li v-show='element.button === "APPLY" '><a class='ms-3 button-apply' :href="element.href">{{ element.button }}</a></li>
             </ul>
             <button class="ms-5">get in touch now</button>
         </div>
     </nav>
-    <div class="box-header px-5">
+    <div class="box-header">
       <h1>SEM Campaigns Made Simple With Avada</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Phasellus eu ornare erat. Curabitur pulvinar elit.</p>
       <button class="me-3">buy avada now</button>
