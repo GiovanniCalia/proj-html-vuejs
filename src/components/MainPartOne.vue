@@ -2,7 +2,7 @@
   <main>
     <div class="cont_box pt-5">
         <div class=" text-box text-center py-5">
-          <h2 class="mb-3">Meet The New Agency SEP template From The Avada Team</h2>
+          <h2 class="mb-3">Meet The New Agency SEO template From The Avada Team</h2>
           <p>Set ut perspiciatis unde omnis iste natus erroe sit voluptatem accusantinum doloremque laudantium.</p>
         </div>
 
@@ -67,7 +67,7 @@ main{
 
       h3{
        font-size: 1.5rem;
-       transition: 0.5s;
+       transition: 0.3s;
        transition-timing-function: linear;
 
        &:hover{

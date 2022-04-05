@@ -91,7 +91,7 @@ main{
 
         h3{
           font-size: 1.5rem;
-          transition: 0.5s;
+          transition: 0.3s;
           transition-timing-function: linear;
 
           &:hover{

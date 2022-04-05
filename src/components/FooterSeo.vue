@@ -74,7 +74,7 @@ li{
   a{
     color: black;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
     transition-timing-function: linear;
 
     &:hover{

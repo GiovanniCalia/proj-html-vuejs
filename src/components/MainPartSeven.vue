@@ -30,7 +30,7 @@ main{
 
     button{
       margin: 1rem 0;
-      padding: 0.6rem 2rem;
+      padding: 0.5rem 2rem;
       background-color: $orange_color;
       font-size: 80%;
     }

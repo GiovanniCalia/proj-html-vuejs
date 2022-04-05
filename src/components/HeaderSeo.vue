@@ -15,7 +15,7 @@
 
     <div class="box-header">
       <h1>SEM Campaigns Made Simple With Avada</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Phasellus eu ornare erat. Curabitur pulvinar elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Phasellus eu ornare erat. Curabitur pulvinar elit.</p>
       <button class="me-3">buy avada now</button>
       <button class="color-blue">contact us</button>
     </div>
@@ -71,6 +71,7 @@ header{
     font-size: 90%;
 
     button{
+      padding: 0.5rem 1.5rem;
       color: white;
       background-color: $orange_color;
     }
@@ -89,7 +90,7 @@ header{
       a{
         color: #f8f8f8;
         text-decoration: none;
-        transition: 0.5s;
+        transition: 0.3s;
         transition-timing-function: linear;
 
         &:hover{
@@ -111,7 +112,7 @@ header{
 
     button{
       padding: 0.6rem 2rem;
-      font-size: 80%;
+      font-size: 90%;
       background-color: $orange_color;
     }
 

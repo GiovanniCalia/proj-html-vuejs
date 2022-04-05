@@ -45,6 +45,10 @@ export default {
 main{
     background-color: #f8f8f8;
 
+    p{
+      color: #5a5759;
+    }
+
     .box{
       display: flex;
       justify-content: space-between;
@@ -59,6 +63,10 @@ main{
 
         img{
           width: 100%;
+        }
+
+        small{
+            color: #5a5759;
         }
 
         p{
