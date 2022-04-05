@@ -5,10 +5,18 @@
         <h2 class="mb-5">What Our Clients Say</h2>
         <img src="../../src/assets/images/testimonials-2.jpg" class="mb-4" alt="Luis Desalvo">
         <p>Ability proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience.</p>
-        <p><strong>Luis Desalvo</strong>, CREO TECH</p>
+        <p class="py-3"><strong>Luis Desalvo</strong>, CREO TECH</p>
         <div class="full"></div>
         <div></div>
+      </div>
 
+      <hr>
+
+      <div class="avada-images d-flex justify-content-around">
+        <img src="../../src/assets/images/clients_partner_5-200x202.png" alt="">
+        <img src="../../src/assets/images/clients_partner_6-200x202.png" alt="">
+        <img src="../../src/assets/images/clients_partner_1-200x202.png" alt="">
+        <img src="../../src/assets/images/clients_partner_2-200x202.png" alt="">
       </div>
 
     </div>
@@ -45,6 +53,19 @@ export default {
     background-color: black;
   }
 
+}
+
+hr{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.avada-images{
+
+  img{
+  width: 10%;
+  }
 }
 
 </style>
