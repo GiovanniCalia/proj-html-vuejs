@@ -15,7 +15,7 @@
 
         <div class="box py-4">
           <font-awesome-icon icon="fa-solid fa-video" class="py-3"/>
-          <h3 class="mb-3">Work with a team</h3>
+          <h3 class="mb-3">Work With a Team</h3>
           <p>Cras semper auctor aliquaum. Sed porta sed lacus sin amet consectetur. Lorem ipsum dolor sin amet, consectetur adipiscin.</p>
         </div>
 
