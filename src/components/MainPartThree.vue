@@ -27,9 +27,14 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
     background-color: #f8f8f8;
+
+    p{
+      color: #5a5759;
+    }
 
     img{
        width: 32%;
@@ -40,7 +45,7 @@ main{
        text-transform: uppercase;
        padding: 0.6rem 1.5rem;
        color: #f8f8f8;
-       background-color: #ffa837;
+       background-color: $orange_color;
        border-radius: 100px;
        border: none;
        font-size: 80%;

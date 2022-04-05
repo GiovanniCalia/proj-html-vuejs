@@ -51,6 +51,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
   background-image: url(../../src/assets/images/pattern_background.png);
@@ -73,17 +74,17 @@ main{
       font-size: 90%;
 
         .fa-google, .fa-gear, .fa-building, .fa-chart-column{
-          color: #ffa837;
+          color: $orange_color;
           font-size: 170%;
         }
 
         .fa-angle-right{
-          color: #ffa837;
+          color: $orange_color;
           font-size: 70%;
         }
 
         a{
-          color: #ffa837;
+          color: $orange_color;
           text-decoration: none;
            vertical-align: middle;
         }

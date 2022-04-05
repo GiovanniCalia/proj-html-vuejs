@@ -40,6 +40,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
     background-color: #f8f8f8;
@@ -53,7 +54,7 @@ main{
 
         h4{
           font-size: 120%;
-          color: #ffa837;
+          color: $orange_color;
         }
 
         img{
@@ -72,7 +73,7 @@ main{
         margin: 1rem 0;
         padding: 0.6rem 2rem;
         color:white;
-        background-color: #ffa837;
+        background-color: $orange_color;
         border-radius: 100px;
         border: none;
         font-size: 80%;

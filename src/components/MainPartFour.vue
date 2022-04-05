@@ -12,7 +12,7 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="blue_number big">19</strong>
+                            <strong class="blue_number_big">19</strong>
                         </div>
                         <div class="text-start">
                             <div class="blue_number">99</div>
@@ -29,7 +29,7 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="blue_number big">29</strong>
+                            <strong class="blue_number_big">29</strong>
                         </div>
                         <div class="text-start">
                             <div class="blue_number">99</div>
@@ -46,7 +46,7 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="blue_number big">39</strong>
+                            <strong class="blue_number_big">39</strong>
                         </div>
                         <div class="text-start">
                             <div class="blue_number">99</div>
@@ -63,7 +63,7 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="blue_number big">59</strong>
+                            <strong class="blue_number_big">59</strong>
                         </div>
                         <div class="text-start">
                             <div class="blue_number">99</div>
@@ -87,6 +87,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
     background-image: url(../../src/assets/images/background1.jpg);
@@ -107,23 +108,27 @@ main{
 
         div{
             margin-bottom: 0.6rem;
+            color: #5a5759;
         }
 
         h4{
             font-size: 30px;
         }
 
-        .big{
+        .blue_number_big{
             font-size: 50px;
+            color: #607AFE;
         }
 
         .blue_number{
             color: #607AFE;
+            position: relative;
+            top: 6px;
         }
 
         .fa-dollar-sign{
             font-size: 90%;
-            vertical-align: 90%;
+            vertical-align: 100%;
         }
 
         em{
@@ -131,18 +136,19 @@ main{
         }
 
         button{
-           text-transform: uppercase;
            margin: 1rem 0;
-           padding: 0.5rem 1.8rem;
+           padding: 0.5rem 1.7rem;
+           color: #5a5759;
            background-color: white;
            border-radius: 100px;
-           border: 2px solid black;
+           border: 2px solid #5a5759;
            font-size: 80%;
         }
 
         .orange{
-            background-color: #ffa837;
-            border: 2px solid #ffa837;
+            color: white;
+            background-color: $orange_color;
+            border: 2px solid $orange_color;
         }
     }
 

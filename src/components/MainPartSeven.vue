@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
   background-image: url(../../src/assets/images/CTA-seo-1.jpg);
@@ -31,7 +32,7 @@ main{
       margin: 1rem 0;
       padding: 0.6rem 2rem;
       color:white;
-      background-color: #ffa837;
+      background-color: $orange_color;
       border-radius: 100px;
       border: none;
       font-size: 80%;

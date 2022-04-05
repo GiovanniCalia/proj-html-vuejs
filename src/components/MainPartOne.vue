@@ -39,6 +39,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 main{
   background-color: #f8f8f8;
@@ -48,7 +49,7 @@ main{
   }
 
   .fa-road, .fa-video, .fa-droplet{
-    color: #ffa837;
+    color: $orange_color;
     font-size: 170%;
   }
 
@@ -66,9 +67,11 @@ main{
 
       h3{
        font-size: 1.5rem;
+       transition: 0.5s;
+       transition-timing-function: linear;
 
        &:hover{
-         color: #ffa837;
+         color: $orange_color;
        }
       }
 

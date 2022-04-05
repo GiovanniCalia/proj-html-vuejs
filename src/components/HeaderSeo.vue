@@ -61,6 +61,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 header{
   background-image: url(../../src/assets/images/1-hero-image.png);
@@ -73,15 +74,15 @@ header{
       text-transform: uppercase;
       padding: 0.6rem 1.5rem;
       color: white;
-      background-color: #ffa837;
+      background-color: $orange_color;
       border-radius: 100px;
       border: none;
     }
 
     .button-apply{
       padding: 0.2rem 0.4rem;
-      color: #ffa837;
-      border: 1px solid #ffa837;
+      color: $orange_color;
+      border: 1px solid $orange_color;
       border-radius: 4px;
       font-size: 70%;
     }
@@ -93,9 +94,10 @@ header{
         color: #f8f8f8;
         text-decoration: none;
         transition: 0.5s;
+        transition-timing-function: linear;
 
         &:hover{
-          color: #ffa837;
+          color: $orange_color;
         }
       }
     }
@@ -112,12 +114,7 @@ header{
     }
 
     button{
-      text-transform: uppercase;
-      padding: 0.6rem 1.8rem;
-      color: #f8f8f8;
-      background-color: #ffa837;
-      border-radius: 100px;
-      border: none;
+      padding: 0.6rem 2rem;
       font-size: 80%;
     }
 
