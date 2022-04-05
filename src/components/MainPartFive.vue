@@ -81,7 +81,7 @@ main{
            border-radius: 100px;
            border: none;
            font-size: 80%;
-        }
+    }
 }
 
 </style>

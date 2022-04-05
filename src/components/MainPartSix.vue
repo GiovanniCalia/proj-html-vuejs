@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="cont_box py-5">
+    <div class="cont_box my-5">
       <div class="text-box text-center py-5">
         <h2 class="mb-5">What Our Clients Say</h2>
         <img src="../../src/assets/images/testimonials-2.jpg" class="mb-4" alt="Luis Desalvo">
