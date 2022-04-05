@@ -7,10 +7,19 @@ h1, h2, h3, h4, strong{
 .cont_box{
     max-width: 1200px;
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .text-box{
     width: 500px;
     margin: auto;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    background-color: #ffa837;
+    border-radius: 100px;
+    border: none;
 }

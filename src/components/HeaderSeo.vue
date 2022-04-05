@@ -7,7 +7,7 @@
       <div class="d-flex align-items-center">
         <ul class='d-flex mt-3' v-for='element in listHeader' :key='element.name'>
           <li class='d-flex '><a :href="element.href">{{ element.name }}</a></li>
-          <li v-show='element.button === "APPLY"'><a class='ms-3 button-apply' :href="element.href">{{ element.button }}</a></li>
+          <li v-show='element.button === "APPLY"'><a class='ms-2 button-apply' :href="element.href">{{ element.button }}</a></li>
         </ul>
         <button class="ms-5">get in touch now</button>
       </div>
@@ -79,10 +79,11 @@ header{
     }
 
     .button-apply{
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 0.4rem;
       color: #ffa837;
-      border: 2px solid #ffa837;
-      border-radius: 8px;
+      border: 1px solid #ffa837;
+      border-radius: 4px;
+      font-size: 70%;
     }
 
     li {
@@ -91,6 +92,7 @@ header{
       a{
         color: #f8f8f8;
         text-decoration: none;
+        transition: 0.5s;
 
         &:hover{
           color: #ffa837;
@@ -100,10 +102,14 @@ header{
   }
 
   .box-header{
-    width: 550px;
+    width: 500px;
     color: #f8f8f8;
     padding-top: 5rem;
     padding-bottom: 10rem;
+
+    h1{
+      font-size: 50px;
+    }
 
     button{
       text-transform: uppercase;

@@ -3,17 +3,17 @@
     <img src="../../src/assets/images/logo_seo_1x.png" class="mb-5" alt="logo Seo black">
 
     <ul class="d-flex justify-content-center mb-5">
-      <li v-for='element in footerList' :key='element.title' class="mx-3"><a :href="element.href">{{ element.title}}</a></li>
+      <li v-for='element in footerList' :key='element.title' class="mx-3 first_list"><a :href="element.href">{{ element.title}}</a></li>
     </ul>
 
     <ul class="d-flex justify-content-center second-list mb-4">
-      <li><small>&#169; Copyright 2012 - 2020 </small></li>
+      <li><small>&#169; Copyright 2012 - 2020</small></li>
       <div>|</div>
-      <li><small>Avada Theme by <a href="#!">ThemeFusion </a></small></li>
+      <li><small>Avada Theme by <a href="#!">ThemeFusion</a></small></li>
       <div>|</div>
-      <li><small>All Right Reserved </small></li>
+      <li><small>All Right Reserved</small></li>
       <div>|</div>
-      <li><small>Powered by <a href="#!">WordPress </a></small></li>
+      <li><small>Powered by <a href="#!">WordPress</a></small></li>
     </ul>
 
     <div class="d-flex justify-content-center">
@@ -67,12 +67,15 @@ export default {
 
 <style scoped lang='scss'>
 
-li {
+li{
   list-style-type: none;
+  font-size: 90%;
 
   a{
     color: black;
     text-decoration: none;
+    transition: 0.5s;
+    transition-timing-function: linear;
 
     &:hover{
       color: #ffa837;
@@ -83,11 +86,15 @@ li {
 .second-list{
   li{
     margin: 0 0.5rem;
+
+    a{
+      font-weight: 500;
+    }
   }
 }
 
 .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube{
-  color: #818e9d;
+  color: #5a5759;
   font-size: 1.5rem;
   margin: 0 1rem;
   cursor: pointer;
