@@ -34,7 +34,6 @@ export default {
 
 .text-box{
   width: 600px;
-  margin: auto;
 
   img{
     border-radius: 50%;

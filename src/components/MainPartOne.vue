@@ -44,30 +44,29 @@ main{
   background-color: #f8f8f8;
 
   .text-box{
-  margin: auto;
-  width: 500px;
+    width: 550px;
   }
 
   .fa-road, .fa-video, .fa-droplet{
-  color: #ffa837;
-  font-size: 170%;
+    color: #ffa837;
+    font-size: 170%;
   }
 
   p{
-  font-size: 90%;
-  color: #818e9d;
+    font-size: 90%;
+    color: #5a5759;
   }
 
   .color_white{
 
     .box{
-    background-color: white;
-    width: 350px;
-    padding: 1.5rem;
+      background-color: white;
+      width: 350px;
+      padding: 1.5rem;
 
-    h3{
-      font-size: 1.5rem;
-    }
+      h3{
+       font-size: 1.5rem;
+      }
 
     }
   }

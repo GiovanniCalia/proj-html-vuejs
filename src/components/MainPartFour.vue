@@ -1,5 +1,5 @@
 <template>
-  <main>
+    <main>
         <div class="cont_box py-5">
             <div class=" text-box text-center py-5">
                 <h2 class="mb-3">Our Plans</h2>
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-  </main>
+    </main>
 </template>
 
 <script>
@@ -87,14 +87,13 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+
 main{
     background-image: url(../../src/assets/images/background1.jpg);
     background-size: cover;
 
     .text-box{
-        width: 500px;
-        margin: auto;
-        color: white;
+       color: white;
     }
 
     .big-box{
@@ -142,9 +141,9 @@ main{
         }
 
         .orange{
-               background-color: #ffa837;
-                border: 2px solid #ffa837;
-           }
+            background-color: #ffa837;
+            border: 2px solid #ffa837;
+        }
     }
 
 }

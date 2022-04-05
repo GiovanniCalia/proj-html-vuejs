@@ -1,5 +1,5 @@
 <template>
-  <main>
+    <main>
         <div class="cont_box py-5">
             <div class="text-box text-center py-5">
                 <h2 class="mb-3">Our News</h2>
@@ -30,7 +30,7 @@
                 <button>view our work</button>
             </div>
         </div>
-  </main>
+    </main>
 </template>
 
 <script>
@@ -44,43 +44,38 @@ export default {
 main{
     background-color: #f8f8f8;
 
-    .text-box{
-      width: 500px;
-      margin: auto;
-    }
-
     .box{
       display: flex;
       justify-content: space-between;
 
       div{
-          width: 30%;
+        width: 30%;
 
-         h4{
+        h4{
           font-size: 120%;
           color: #ffa837;
-         }
-
-         img{
-          width: 100%;
-         }
-
-         p{
-             margin-top: 1rem;
-             font-size: 90%;
-         }
         }
+
+        img{
+          width: 100%;
+        }
+
+        p{
+            margin-top: 1rem;
+            font-size: 90%;
+        }
+      }
     }
 
     button{
-           text-transform: uppercase;
-           margin: 1rem 0;
-           padding: 0.6rem 2rem;
-           color:white;
-           background-color: #ffa837;
-           border-radius: 100px;
-           border: none;
-           font-size: 80%;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        padding: 0.6rem 2rem;
+        color:white;
+        background-color: #ffa837;
+        border-radius: 100px;
+        border: none;
+        font-size: 80%;
     }
 }
 
