@@ -12,15 +12,15 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="big-number">19</strong>
+                            <strong class="blue_number big">19</strong>
                         </div>
                         <div class="text-start">
-                            <div>99</div>
+                            <div class="blue_number">99</div>
                             <em>monthly</em>
                         </div>
                     </div>
-                    <div>5 projects</div>
-                    <div>5 GB storage</div>
+                    <div>5 Projects</div>
+                    <div>5 GB Storage</div>
                     <div>Unlimited Users</div>
                     <button>start today</button>
                 </div>
@@ -29,15 +29,15 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="big-number">29</strong>
+                            <strong class="blue_number big">29</strong>
                         </div>
                         <div class="text-start">
-                            <div>99</div>
+                            <div class="blue_number">99</div>
                             <em>monthly</em>
                         </div>
                     </div>
-                    <div>10 projects</div>
-                    <div>15 GB storage</div>
+                    <div>10 Projects</div>
+                    <div>15 GB Storage</div>
                     <div>Unlimited Users</div>
                     <button>start today</button>
                 </div>
@@ -46,15 +46,15 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="big-number">39</strong>
+                            <strong class="blue_number big">39</strong>
                         </div>
                         <div class="text-start">
-                            <div>99</div>
+                            <div class="blue_number">99</div>
                             <em>monthly</em>
                         </div>
                     </div>
-                    <div>15 projects</div>
-                    <div>30 GB storage</div>
+                    <div>15 Projects</div>
+                    <div>30 GB Storage</div>
                     <div>Unlimited Users</div>
                     <button class="orange">start today</button>
                 </div>
@@ -63,15 +63,15 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-dollar-sign" />
-                            <strong class="big-number">59</strong>
+                            <strong class="blue_number big">59</strong>
                         </div>
                         <div class="text-start">
-                            <div>99</div>
+                            <div class="blue_number">99</div>
                             <em>monthly</em>
                         </div>
                     </div>
-                    <div>Unlimited projects</div>
-                    <div>Unlimited storage</div>
+                    <div>Unlimited Projects</div>
+                    <div>Unlimited Storage</div>
                     <div>Unlimited Users</div>
                     <button>start today</button>
                 </div>
@@ -114,8 +114,11 @@ main{
             font-size: 30px;
         }
 
-        .big-number{
+        .big{
             font-size: 50px;
+        }
+
+        .blue_number{
             color: #607AFE;
         }
 

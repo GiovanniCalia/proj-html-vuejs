@@ -6,6 +6,7 @@
     <main-part-three />
     <main-part-four />
     <main-part-five />
+    <main-part-six />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import MainPartTwo from './components/MainPartTwo.vue'
 import MainPartThree from './components/MainPartThree.vue'
 import MainPartFour from './components/MainPartFour.vue'
 import MainPartFive from './components/MainPartFive.vue'
+import MainPartSix from './components/MainPartSix.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     MainPartTwo,
     MainPartThree,
     MainPartFour,
-    MainPartFive
+    MainPartFive,
+    MainPartSix
   }
 }
 </script>
