@@ -79,7 +79,7 @@ li{
     transition-timing-function: linear;
 
     &:hover{
-      color: #ffa837;
+      color: $orange_color;
     }
   }
 }
