@@ -8,6 +8,7 @@
     <main-part-five />
     <main-part-six />
     <main-part-seven />
+    <footer-seo />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import MainPartFour from './components/MainPartFour.vue'
 import MainPartFive from './components/MainPartFive.vue'
 import MainPartSix from './components/MainPartSix.vue'
 import MainPartSeven from './components/MainPartSeven.vue'
+import FooterSeo from './components/FooterSeo.vue'
 
 export default {
   name: 'App',
@@ -31,7 +33,8 @@ export default {
     MainPartFour,
     MainPartFive,
     MainPartSix,
-    MainPartSeven
+    MainPartSeven,
+    FooterSeo
   }
 }
 </script>

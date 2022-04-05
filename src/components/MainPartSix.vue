@@ -56,8 +56,6 @@ export default {
 }
 
 hr{
-  width: 90%;
-  margin: auto;
   margin-bottom: 2rem;
 }
 
