@@ -72,7 +72,7 @@ header{
 
     button{
       padding: 0.5rem 1.5rem;
-      color: white;
+      color: $alabaster_white;
       background-color: $orange_color;
     }
 
@@ -88,7 +88,7 @@ header{
       list-style-type: none;
 
       a{
-        color: #f8f8f8;
+        color: $alabaster_white;
         text-decoration: none;
         transition: 0.3s;
         transition-timing-function: linear;
@@ -102,7 +102,7 @@ header{
 
   .box-header{
     width: 500px;
-    color: #f8f8f8;
+    color: $alabaster_white;
     padding-top: 5rem;
     padding-bottom: 10rem;
 
@@ -117,7 +117,7 @@ header{
     }
 
     .color-blue{
-      background-color: #607AFE;
+      background-color: $blue_color;
     }
   }
 }

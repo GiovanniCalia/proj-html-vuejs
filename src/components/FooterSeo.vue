@@ -66,13 +66,14 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 li{
   list-style-type: none;
   font-size: 90%;
 
   a{
-    color: black;
+    color: $dark_grey_text;
     text-decoration: none;
     transition: 0.3s;
     transition-timing-function: linear;
@@ -89,12 +90,13 @@ li{
 
     a{
       font-weight: 500;
+      color: black;
     }
   }
 }
 
 .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube{
-  color: #5a5759;
+  color: $dark_grey_text;
   font-size: 1.5rem;
   margin: 0 1rem;
   cursor: pointer;

@@ -42,7 +42,7 @@ export default {
 @import '@/assets/styles/otherstyles/variables.scss';
 
 main{
-  background-color: #f8f8f8;
+  background-color: $alabaster_white;
 
   .text-box{
     width: 550px;
@@ -55,7 +55,7 @@ main{
 
   p{
     font-size: 90%;
-    color: #5a5759;
+    color: $dark_grey_text;
   }
 
   .color_white{

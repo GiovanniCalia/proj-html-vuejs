@@ -108,7 +108,7 @@ main{
 
         div{
             margin-bottom: 0.6rem;
-            color: #5a5759;
+            color: $dark_grey_text;
         }
 
         h4{
@@ -117,11 +117,11 @@ main{
 
         .blue_number_big{
             font-size: 50px;
-            color: #607AFE;
+            color: $blue_color;
         }
 
         .blue_number{
-            color: #607AFE;
+            color: $blue_color;
             position: relative;
             top: 6px;
         }
@@ -138,9 +138,9 @@ main{
         button{
            margin: 1rem 0;
            padding: 0.5rem 1.7rem;
-           color: #5a5759;
+           color: $dark_grey_text;
            background-color: white;
-           border: 2px solid #5a5759;
+           border: 2px solid $dark_grey_text;
            font-size: 80%;
         }
 

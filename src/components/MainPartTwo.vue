@@ -64,7 +64,7 @@ main{
     }
 
     .text-box{
-      color: #f8f8f8;
+      color: white;
     }
 
     .box{

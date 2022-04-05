@@ -31,12 +31,17 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
 
 .text-box{
   width: 600px;
 
   img{
     border-radius: 50%;
+  }
+
+  em{
+    color: $dark_grey_text
   }
 
   div{

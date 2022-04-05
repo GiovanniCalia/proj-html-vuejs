@@ -30,21 +30,21 @@ export default {
 @import '@/assets/styles/otherstyles/variables.scss';
 
 main{
-    background-color: #f8f8f8;
+    background-color: $alabaster_white;
 
     p{
-      color: #5a5759;
+      color: $dark_grey_text;
     }
 
     img{
        width: 32%;
-       margin-bottom: 18.24px;
+       margin-bottom: 23.36px;
     }
 
     button{
        text-transform: uppercase;
        padding: 0.6rem 1.5rem;
-       color: #f8f8f8;
+       color: $alabaster_white;
        background-color: $orange_color;
        border-radius: 100px;
        border: none;

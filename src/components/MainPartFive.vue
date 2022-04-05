@@ -43,10 +43,10 @@ export default {
 @import '@/assets/styles/otherstyles/variables.scss';
 
 main{
-    background-color: #f8f8f8;
+    background-color: $alabaster_white;
 
     p{
-      color: #5a5759;
+      color: $dark_grey_text;
     }
 
     .box{
@@ -66,7 +66,7 @@ main{
         }
 
         small{
-            color: #5a5759;
+            color: $dark_grey_text
         }
 
         p{

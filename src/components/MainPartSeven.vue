@@ -25,7 +25,7 @@ main{
   .text-box{
     width: auto;
     padding: 6rem 0;
-    color: #f8f8f8;
+    color: $alabaster_white;
     background-color: rgba(0, 0, 0, 0.6);
 
     button{
