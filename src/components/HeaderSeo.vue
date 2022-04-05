@@ -71,12 +71,8 @@ header{
     font-size: 90%;
 
     button{
-      text-transform: uppercase;
-      padding: 0.6rem 1.5rem;
       color: white;
       background-color: $orange_color;
-      border-radius: 100px;
-      border: none;
     }
 
     .button-apply{
@@ -116,6 +112,7 @@ header{
     button{
       padding: 0.6rem 2rem;
       font-size: 80%;
+      background-color: $orange_color;
     }
 
     .color-blue{

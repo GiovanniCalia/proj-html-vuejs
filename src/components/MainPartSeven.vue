@@ -20,6 +20,7 @@ export default {
 main{
   background-image: url(../../src/assets/images/CTA-seo-1.jpg);
   background-size: cover;
+  background-position: center;
 
   .text-box{
     width: auto;
@@ -28,13 +29,9 @@ main{
     background-color: rgba(0, 0, 0, 0.6);
 
     button{
-      text-transform: uppercase;
       margin: 1rem 0;
       padding: 0.6rem 2rem;
-      color:white;
       background-color: $orange_color;
-      border-radius: 100px;
-      border: none;
       font-size: 80%;
     }
   }

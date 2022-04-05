@@ -140,7 +140,6 @@ main{
            padding: 0.5rem 1.7rem;
            color: #5a5759;
            background-color: white;
-           border-radius: 100px;
            border: 2px solid #5a5759;
            font-size: 80%;
         }

@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="text-center my-4">
-                <button>view our work</button>
+                <button>go to news</button>
             </div>
         </div>
     </main>

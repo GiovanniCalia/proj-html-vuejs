@@ -3,8 +3,8 @@
     <div class="cont_box my-5">
       <div class="text-box text-center py-5">
         <h2 class="mb-5">What Our Clients Say</h2>
-        <img src="../../src/assets/images/testimonials-2.jpg" class="mb-4" alt="Luis Desalvo">
-        <p>Ability proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience.</p>
+        <img src="../../src/assets/images/testimonials-2.jpg" class="mb-4" alt="Luis Desalvo"><br>
+        <em>Ability proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience.</em>
         <p class="py-3"><strong>Luis Desalvo</strong>, CREO TECH</p>
         <div class="full"></div>
         <div></div>

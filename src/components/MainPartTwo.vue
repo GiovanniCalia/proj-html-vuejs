@@ -91,6 +91,12 @@ main{
 
         h3{
           font-size: 1.5rem;
+          transition: 0.5s;
+          transition-timing-function: linear;
+
+          &:hover{
+            color: $orange_color;
+          }
         }
     }
 }
